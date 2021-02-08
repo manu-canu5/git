@@ -14,9 +14,9 @@ function draw(){
     ctx.stroke()
 }
 draw();
-// function circle(){
-//     ctx.fillStyle = "pink"
-//     ctx.arc(400,250,200,0,Math.PI*2,false);
-//     ctx.fill()
-// }
-// circle();
+function circle(){
+    ctx.fillStyle = "pink"
+    ctx.arc(400,250,200,0,Math.PI*2,false);
+    ctx.fill()
+}
+circle();
